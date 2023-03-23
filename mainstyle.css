@@ -1,0 +1,1057 @@
+/**/
+
+body, mark {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+a { 
+    font-family: 'Teko', sans-serif;
+    letter-spacing: 1px;
+     text-decoration: none;  
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    background: transparent;  
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Teko', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+}
+
+h1 {
+	padding: 0vw 5vw 0vw 5vw;
+    font-size:calc(2em + 1.5vw);
+}
+
+h2 {
+    padding: 5vw 0vw 2vw 0vw;
+}
+
+h2, h3 {
+    font-size: calc(1.2em + 0.5vw);
+}
+
+h5 {
+	margin: 36px 0px 12px 0px;
+	color: #0d1b29;
+	text-transform: none;
+    font-size: calc(1.2em + 1.0vw);
+}
+
+.gray {
+    color:darkslategray; 
+}
+
+header {
+    margin: auto;
+    padding-top:calc(1.5em + 1%);
+    padding-bottom: 1%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.job_ul {
+	padding-left: 16px;
+    list-style-type: disc;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+mark {
+    color: orange;
+    background-color: transparent;
+}
+
+.nav {
+    width: 100%;
+    height:50px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+  
+    background: linear-gradient(135deg, rgba(39, 59, 79,1) 45%, rgba(6, 12, 19,1) 65% );
+    
+    border-style:solid;
+    border-bottom-width: 3px;
+    border-color: rgba(60,80,130,1);
+    clear: both;
+}
+
+.nav li {
+    text-align: center;
+    color: antiquewhite;
+    display: inline-block;    
+}
+
+li a {
+
+    font-size: 1.7em;
+    line-height: 1.75em;
+
+    color: ghostwhite;
+    text-decoration: none; 
+}
+
+.nav__container {
+    height: 100%;
+    width: auto;
+    text-shadow:0px 0px 3px black;
+    margin-left:auto; 
+    margin-right:0;
+    text-align: right;
+}
+
+li:hover {
+    border-bottom-style: solid;
+    border-bottom-color:orange;
+    border-bottom-width: 3px;
+}
+
+li:hover a {
+    color: orange;
+}
+
+.job_list {
+	pointer-events: none;	
+}
+
+.normal {
+    line-height: 1.5em;
+    color: antiquewhite;
+}
+
+.clear {
+    clear: both;
+}
+
+#wrapper {
+    width: 100%;
+    text-align: center;
+    overflow-x:hidden;
+}
+
+.header__mobile {
+    visibility: collapse;
+    padding: 0;
+    font-size: 0;
+}
+
+.home__slideshow {
+    height: auto;
+    top: 50px;
+}
+
+.container__responsive {
+    width: calc(5em + 10vw);
+    margin-top: 20%;
+    background: rgba(20,20,20,0.7);
+}
+
+.home__slide {
+    display:block;
+    z-index: -1;
+    position: fixed;
+    width: 100%; 
+    height: auto;
+    top: 50px;
+    background-color: black;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.about {
+    width: auto;
+    background-color: white;
+}
+
+.border__bot {
+    border-bottom-right-radius: 50% 6%;
+    border-bottom-left-radius: 50% 6%;
+    margin: 0% -15% 0% -15%;
+}
+
+.bg__blue {
+    background: rgba(5, 25, 38,1);
+}
+
+.border__top {
+    border-top-right-radius: 50% 6%;
+    border-top-left-radius: 50% 6%;
+    margin: 0% -15% 0% -15%;
+}
+
+.job_border__top {
+    border-top-right-radius: 90% 6%;
+    border-top-left-radius: 90% 6%;
+    margin: 0% -15% 0% -15%;
+}
+
+.line__top {
+    border-top-style: solid;
+    border-top-color:orange;
+    border-top-width: 1px;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.dark {
+    background-color: transparent;
+}
+
+.background__bottom_color {
+    background: rgba(13, 27, 41, 1);
+}
+
+.games__header {
+    background-color: white;
+}
+
+.games__container {
+    background-color: #333;
+}
+
+.games__container a {
+    letter-spacing: 0;  
+}
+
+.contact {
+    padding: 2vw 0vw;
+}
+
+.contact .normal {
+    padding: 0%;
+}
+
+.button {
+    margin: 4% 0% 2% 0%;
+	padding: 0.5em 2.5em 0.35em 2.5em;
+    font-size: 1.5em;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: 1em;	
+}
+
+   .pad_bot {
+    margin-bottom:6vw;
+    }
+
+.white-button {
+    color: white;
+    border-color: white;
+}
+
+.dark-button {
+	min-width: 400px;
+    color:white;
+    background-color: #0d1b29;
+	border-color: #0d1b29;
+}
+
+.dark-transparent-button {
+    color:#0d1b29;
+    border-color: #0d1b29;
+}
+
+.orange-button {
+    color: orange;
+    border-color: orange;
+}
+
+.yellow-button {	
+    color: #0d1b29;	
+	background-color: #eea30f;
+    border-color: #EE7911;
+}
+
+.small-button {
+ 
+    margin: 1%;
+    padding: 1% 1.2%;
+    border-style: solid;
+    border-width: 2px;
+    font-size: 1.2em;
+ 
+    height: 100%;
+    color: orange;
+    border-color: orange;
+ 
+}
+
+.small-button img {
+    height: 1.5em;
+    max-height: 100%;
+   
+    
+}
+
+.wide-button {
+
+	max-width: 800px;
+	width: 90%;
+    margin: 0% 0% 1% 0%;
+    padding: 0.75em 1.25em 0.5em 1.25em;
+    font-size: 1.2em;
+    border-style: solid;
+    border-width: 3px;
+    font-weight: 600;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height:  0.75em;
+
+}
+
+.game_buttons_orange {
+    margin-top: 3%;
+    width: 100%;
+    height: auto;
+}
+
+.button_forum_padding {
+    padding: 1% 3%;
+}
+
+
+
+.small-button:hover {
+    color: black;
+    background-color:orange;
+    border-color: orange;
+    font-weight: 400;
+    
+}
+
+.small-button-youtube {
+    background-image: url(all_images/extra/icon_youtube.png);
+}
+
+.small-button-youtube:hover {
+    background-image: url(all_images/extra/icon_youtube_hover.png);
+}
+
+.small-button-instagram {
+    background-image: url(all_images/extra/icon_instagram.png);
+}
+
+.small-button-instagram:hover {
+    background-image: url(all_images/extra/icon_instagram_hover.png);
+}
+
+.no-repeat-bg {
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.white-button:hover {
+    color:darkslategray;
+    background-color: white;
+}
+
+.dark-button:hover {
+    color:#0d1b29;
+    background-color: white;
+	border-color:#0d1b29;
+}
+
+.dark-transparent-button:hover {
+    color:white;
+    background-color: #0d1b29;	
+}
+
+.orange-button:hover {
+    color:rgb(13, 27, 41);
+    background-color: orange;
+}
+
+.yellow-button:hover {
+    color: #eea30f;
+    background-color: #0d1b29;
+}
+
+.small-button :hover {
+}
+
+.social-media_icon {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+    margin: 1%;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.container {
+    position: relative;
+}
+
+.game-info__slide {
+    display: none;
+    -webkit-animation-name: fade;
+  -webkit-animation-duration: 0.5s;
+    animation-name: fade;
+    animation-duration: 0.5s;
+}
+
+.game-thumbnails__row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.thumbnail_hover-effect {
+    opacity: 0.3;
+}
+
+.active,
+.thumbnail_hover-effect:hover {
+    opacity: 1;
+}
+
+.games__content_change {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+.awards-container{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: auto;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.game-thumbnails__row {
+    height: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 0px;
+}
+
+.shop__image {
+    padding: 0% 2%;
+}
+
+.game-thumbnails__column {
+    display: inline-block;
+}
+
+.game-info {
+    background-color: rgba(6, 12, 19, 1);
+    color: antiquewhite;
+    float: left;
+}
+
+.dot-container {
+    position: absolute;
+    bottom: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 2.2vw;
+    width: 2.2vw;
+    margin: 1vw 0.5vw;
+
+    border-style: solid;
+    border-width: 0.3vw;
+    border-color: #afd0ff;
+     border-radius: 50%;
+    display: inline-block;
+}
+
+.character{
+    height: auto;
+    width: 13vw;
+    margin: 0% 5%;
+}
+.bg__img {
+    background-image:url("");
+    background-color: rgb(39, 59, 79);
+    padding-top: 4%;   
+}
+
+.game-info {
+    font-size: calc(0.8em + 0.5vw);
+    padding:4% 0%;
+}   
+.game-info p {
+    padding: 3%;
+}
+    
+.game-info h3 {
+    font-size: 1.5em;
+    line-height: 0.8em;
+}
+    
+.game-info h4 {
+    font-size: 1.2em;
+    padding: 2%;
+    line-height: 1;
+}
+
+.prev, .next {
+    visibility: collapse;
+    width: 0px;
+    height: 0px;
+    padding: 0px;
+    float: left;
+}
+
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.gradient_overlay__blue {
+   background: linear-gradient(to bottom, transparent 65%, rgba(5, 25, 38,1) 88%);
+}
+
+
+.thumbnail_size {
+    width: 100%;
+    height: 50%;
+}
+
+.footer {
+    width: 100%;
+    color: darkgray;
+    background-color: black;
+    margin-top: 3%;
+    padding: 1.5%;
+}
+
+.footer a {
+    color: orange;
+    text-decoration: none;
+}
+
+.active, .dot:hover {
+    background-color: #afd0ff;
+}
+
+.anchor {
+    float: left;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    transform: translate(0%, -100%);
+    z-index: -1;
+}
+
+.job_anchor {
+    float: left;
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    transform: translate(0%, -100%);
+    z-index: -1;
+}
+
+.job_text {
+	text-align: left;
+	color: #0d1b29;
+    padding: 12% 25% 2% 25%;
+ }
+ 
+ .job_pad_heavy {
+	padding-right:40%;
+ }
+ 
+ .job_pad_medium {
+	padding-right:25%;
+ }
+ 
+ .job_pad_light{
+	padding-right:10%;
+ }
+
+
+@media only screen and (min-width: 768px) {
+    .game-thumbnails__column {
+        width: 16.66%;
+    }
+
+    .bg__img {
+        background-image:url(all_images/careers_background.png);
+        background-size: cover;
+    }
+
+    .game-info {
+        height: auto;
+        width:33.44%;
+        position: absolute;
+        vertical-align: middle;
+        top: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: aliceblue;
+        text-align: center;
+        height: 100%;
+        padding: 2% 0%;
+    }
+
+    .dot-container {
+        width: 66.6%;
+    }   
+
+    .content_text {
+        text-align: center;
+        padding: 4% 35% 2% 35%;
+    }
+
+    .normal {
+        font-size: calc(0.8em + 0.5vw);
+    }
+
+    .game-info__shop-container {
+        width: 100%;
+        bottom: 4%;
+        position: absolute;
+        float: none;      
+    }
+
+    .game-info h3 {
+        font-size: 1.5em;
+    }
+
+    .award__image {
+        width: calc(8em + 8vw);
+        padding: 10% 10% 5% 10%;
+    }
+
+    .nav img {
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+
+
+    .nav li {
+        padding:0em 2em;
+    }
+
+    .bg__img {
+        padding: 7% inherit;
+    }
+
+    .small-button {
+        
+        height: 100%;
+        
+    }
+    
+	.job_text {
+	text-align: left;
+	color: #0d1b29;
+    padding: 5% 25% 2% 25%;
+	}
+	
+	.job_pad_heavy {
+		padding-right:50%;
+	}
+	
+	.job_pad_medium {
+		padding-right:30%;
+	}
+	
+	.job_pad_light{
+		padding-right:5%;
+	}
+    
+
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+ 
+    
+    .game-info {
+        font-size: calc(0.8em + 0.5vw);
+        line-height: 1.3em;
+        width: 100%;
+    }
+    
+    .small-button {
+        padding: 1%;
+    }
+
+ 
+    
+    .game-info p {
+        padding: 3% 4% 1% 4%;
+    }
+
+    .game-info h3 {
+        font-size: 1.75em;
+    }
+
+    .game-info__shop {
+        width: 100%;
+        float: none;     
+    }
+
+
+    .game-thumbnails__column {
+        width: 33.333%;
+    }
+    .game-thumbnails__column img {
+        width: 100%;
+    }
+    
+    .character {
+        margin: 12% 3% 0% 4%;
+        width: 18vw;
+    }
+    
+    .normal {
+        font-size: calc(0.8em + 0.5vw);     
+    }
+	
+	.job_normal {
+        font-size: calc(0.8em + 0.5vw);     
+    }
+	
+	.job_normal {
+        font-size: calc(0.8em + 0.5vw);     
+    }
+    
+    .content_text {
+         padding: 4% 20% 2% 20%;
+    }
+    
+    li a {
+        font-size: 1.3em;
+        line-height: 2.3em;
+        padding:0em 1em;
+    }
+
+    
+    .nav img {
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
+
+    .dot-container {
+        width: 100%;
+    }
+    
+    .dot {
+        width: 3vw;
+        height: 3vw;
+    }
+
+    .award__image {
+
+        width:calc(6em + 20vw);
+       padding: 10%;
+        
+    }
+
+    .social-media_icon {
+        width: 15%;
+        margin: 2%;
+    }
+    
+    .game_buttons_orange {
+        margin-bottom: 3%;
+       
+    }
+
+	.job_pad_heavy {
+		padding-right:15%;
+	}
+	
+	.job_pad_medium {
+		padding-right:5%;
+	}
+	
+	.job_pad_light{
+		padding-right:1%;
+	}
+	
+}
+
+
+
+
+@media only screen and (max-width: 479px) {
+  .game-thumbnails__column {
+        width: 49.999%;
+    }
+    
+     .game-info {
+    font-size: 1em;  
+    }
+    
+    .game-info p {
+        padding: 3% 4% 1% 4%;
+    }
+    
+    .game-info h3 {
+        font-size: 1.5em;
+    }
+    
+    .game-info h4 {
+        font-size: 1.3em;
+        padding: 2%;
+    }
+    
+    .shop__image {
+        width: 18%;
+    }
+
+    .character {
+        visibility: collapse;
+        margin: 0;
+        height: 0;
+        width: 0;
+    }
+    
+    .dot-container {
+        width: 100%;
+    }
+    
+    .dot {
+        width: 3vw;
+        height: 3vw;
+        border-width: 2px;
+    }
+
+    .prev, .next {
+        visibility: visible;
+        cursor: pointer;
+        position: absolute;
+        top: 0;
+        width: auto;
+        padding: 30% 3% 33% 3%;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+      
+        user-select: none;  
+        float: none;
+  
+    }
+
+    .prev {
+        left: 0;
+    }
+
+    .next {
+      right: 0;
+
+    }
+    
+    .social-media_icon {
+        width: 18%;
+        margin: 2%;
+    }
+ 
+    .game-info__shop {
+        width: 100%;
+        float: none;
+        padding-bottom: 2%;   
+    }
+
+    .nav {
+        height: 60px;
+    }
+    
+    li a {
+        font-size: 1.2em;
+    }
+
+    .nav li {
+        padding: 1em 1.5% 0.5em; 
+    }
+    
+    .nav img {
+        display:block;
+        height: 100%;
+        width: auto;
+        float: left;
+    }
+
+    
+    .container__responsive {
+        visibility: hidden;
+        visibility: collapse;
+        margin: 0px;
+        height: 0;
+    }
+    
+    .header__mobile {
+        font-size: 6vw;
+        padding-top: 33%;
+        visibility: visible;
+    }
+    
+      h2, h3 {
+        font-size: 1.5em;
+    }
+
+    .award__image {
+        width: 38%;
+        float: none;
+        margin: 5%;
+        margin-top: 6%;
+        
+    }
+
+    .button {
+        font-size: 1.5em;
+        padding: 3vw 15vw;
+        margin-top:6vw;
+        letter-spacing: 2px;		
+    }
+    
+    .small-button {
+      font-size: 1.4em;
+        
+    }
+    
+    .small-button img {
+       
+        width: 1.4em;
+    }
+    
+    .game_buttons_orange {
+        margin: 3% 2%;
+       
+    }
+
+    .normal {
+
+    }
+    
+    .content_text {
+        text-align: center;
+        padding: 7% 20% 4% 20%;
+    }  
+	
+	.job_pad_heavy {
+		padding-right:5%;
+	}
+	
+	.job_pad_medium {
+		padding-right:2%;
+	}
+	
+	.job_pad_light{
+		padding-right:0%;
+	}
+}
+
+@media only screen and (min-width:768px) and (max-width: 924px) {
+    .shop__image {
+        width: 20%;
+        padding: 2%;
+    }
+    
+    .game-info p {
+ 
+        font-size: 0.9em;
+    }
+
+    .small-button {
+    }
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+hr { 
+display: block; height: 1px;
+	
+    border: 0;
+    margin: 0;
+	width: 100%;
+	background: linear-gradient(to right, black 10% 20%, #f1f1f1 20% 80%, black 10%);
+} 
+
+.EU_footer a {
+    color: orange;
+    text-decoration: none;
+}
+
+.EU_footer {
+    width: 100%;
+    color: darkgray;
+    background-color: black;
+}
+
+.EU_img {
+	width: 6%;
+	display: inline-block;
+    color: darkgray;
+    background-color: black;
+	padding-top: 1.0%;
+	padding-bottom: 1.0%;
+}
+
+.EU_text {
+	width: 47%;
+	display: inline-block;
+    color: darkgray;
+    background-color: black;
+	padding-top: 1.5%;
+	padding-bottom: 1.5%;
+}
